@@ -1,6 +1,5 @@
 require 'accountview/api_methods'
 require 'accountview/utils/hash'
-require 'accountview/utils/faraday/do_not_encoder'
 
 module Accountview
   class Client
