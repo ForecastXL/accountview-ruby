@@ -5,8 +5,7 @@ task :console do
   require 'accountview'
 
   def reload!
-    # Change 'gem_name' here too:
-    files = $LOADED_FEATURES.select { |feat| feat =~ /\/accountview-ruby\// }
+    files = $LOADED_FEATURES.select { |feat| feat =~ /\/accountview\// }
     files.each { |file| load file }
   end
 

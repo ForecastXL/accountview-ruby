@@ -2,6 +2,7 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'accountview/version'
+require 'accountview/client'
 
 Gem::Specification.new do |spec|
   spec.name          = 'accountview-ruby'
@@ -25,8 +26,8 @@ Gem::Specification.new do |spec|
   # Development / testing
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rake'
+  spec.add_development_dependency 'pry'
 
   # Testing
   spec.add_development_dependency 'rspec'
-  spec.add_development_dependency 'pry'
 end
