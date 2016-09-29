@@ -1,5 +1,6 @@
 require 'accountview/api_methods'
 require 'accountview/utils/hash'
+require 'deep_merge/rails_compat'
 
 module Accountview
   class Client
